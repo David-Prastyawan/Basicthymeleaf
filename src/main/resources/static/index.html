@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height:50%;">
+        <div><h2>Fill Data</h2></div>
+        <hr/>
+        <form method="post" enctype="multipart/form-data" action="/Login">
+            NAMA : <input type="text" name="inputNama"/> <br/><br/>
+            TANGGAL : <input type="date" name="inputTanggal"/> <br/>
+            <br/>
+            FOTO : <input type="file" id="img" name="inputFoto" accept="image/png, image/jpeg, image/jpg" required=""/>
+            <br/> <br/>
+            <input type="submit" value="SUBMIT"/>
+        </form>
+        
+    </body>
+</html>
